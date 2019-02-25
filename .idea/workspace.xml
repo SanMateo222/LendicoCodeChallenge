@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a595604a-62cf-43d8-9359-dcfd21d0f97e" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lendico/planner/model/MonthlyRepayment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lendico/planner/service/RepaymentCalculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lendico/planner/service/RepaymentCalculatorImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lendico/planner/app/RepaymentGeneratorRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/lendico/planner/service/RepaymentCalculatorImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/lendico/planner/service/RepaymentGeneratorImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Readme.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lendico/planner/LendicoLoanRepaymentApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LendicoCodeChallenge.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>local</find>
+      <find>convertToPercent</find>
+      <find>loca</find>
+      <find>generateMonthlyRepayment</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/payment/Repayment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/payment/Model/RepaymentPlan.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/payment/RepaymentPlan.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/payment/model/RepaymentPlan.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/payment/service/AnnuityCalculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/payment/service/RepaymentCalculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/payment/web/RepaymentPlanRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/payment/service/RepaymentCalculatorImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/payment/service/AnnuityCalculatorImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/payment/model/Repayment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/payment/web/RepaymentPlanController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/payment/service/RepaymentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/payment/service/RepaymentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/payment/LendicoPlangeneratorApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/payment/LendicoRepaymentPlanner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/planner/LendicoRepaymentPlanner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/planner/model/Repayment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/planner/service/RepaymentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/planner/service/AnnuityCalculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/planner/service/AnnuityCalculatorImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/planner/model/FullRepayment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/planner/web/RepaymentPlanController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/planner/web/RepaymentPlanRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/planner/web/RepaymentGeneratorRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/planner/web/RepaymentGeneratorController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/lendico/planner/service/AnnuityCalculatorImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/planner/LendicoLoanRepaymentApp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/lendico/planner/service/RepaymentCalculatorrImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/planner/service/RepaymentCalculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/planner/service/RepaymentGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/planner/app/RepaymentGeneratorRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/planner/app/RepaymentGeneratorController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/planner/model/MonthlyRepayment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/planner/service/RepaymentCalculatorImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lendico/planner/service/RepaymentGeneratorImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/lendico/planner/service/RepaymentCalculatorImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/lendico/planner/service/RepaymentGeneratorImplTest.java" />
+        <option value="$PROJECT_DIR$/Readme.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LendicoCodeChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LendicoCodeChallenge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LendicoCodeChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LendicoCodeChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LendicoCodeChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LendicoCodeChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LendicoCodeChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LendicoCodeChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LendicoCodeChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LendicoCodeChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="planner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LendicoCodeChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LendicoCodeChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="planner" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LendicoCodeChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LendicoCodeChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="planner" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LendicoCodeChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LendicoCodeChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="planner" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LendicoCodeChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LendicoCodeChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LendicoCodeChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LendicoCodeChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LendicoCodeChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LendicoCodeChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551106465289" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.lendico.planner.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.RepaymentGeneratorImplTest">
+    <configuration name="AnnuityCalculatorImplTest.shouldCalculateWithValidParameters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LendicoCodeChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lendico.planner.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lendico.planner.service" />
+      <option name="MAIN_CLASS_NAME" value="com.lendico.planner.service.AnnuityCalculatorImplTest" />
+      <option name="METHOD_NAME" value="shouldCalculateWithValidParameters" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepaymentCalculatorImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LendicoCodeChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lendico.planner.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lendico.planner.service" />
+      <option name="MAIN_CLASS_NAME" value="com.lendico.planner.service.RepaymentCalculatorImplTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepaymentGeneratorImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LendicoCodeChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lendico.planner.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lendico.planner.service" />
+      <option name="MAIN_CLASS_NAME" value="com.lendico.planner.service.RepaymentGeneratorImplTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepaymentGeneratorImplTest.givenBasicValues_annuityShouldBeAsInGivenExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LendicoCodeChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lendico.planner.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lendico.planner.service" />
+      <option name="MAIN_CLASS_NAME" value="com.lendico.planner.service.RepaymentGeneratorImplTest" />
+      <option name="METHOD_NAME" value="givenBasicValues_annuityShouldBeAsInGivenExample" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepaymentGeneratorImplTest.givenBasicValues_whenDurationOfLoanRepaymentIs10_ThenListOfParticularPaymentsShouldBeEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LendicoCodeChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lendico.planner.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lendico.planner.service" />
+      <option name="MAIN_CLASS_NAME" value="com.lendico.planner.service.RepaymentGeneratorImplTest" />
+      <option name="METHOD_NAME" value="givenBasicValues_whenDurationOfLoanRepaymentIs10_ThenListOfParticularPaymentsShouldBeEqual" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RepaymentGeneratorImplTest" />
+        <item itemvalue="JUnit.RepaymentCalculatorImplTest" />
+        <item itemvalue="JUnit.RepaymentGeneratorImplTest.givenBasicValues_whenDurationOfLoanRepaymentIs10_ThenListOfParticularPaymentsShouldBeEqual" />
+        <item itemvalue="JUnit.RepaymentGeneratorImplTest.givenBasicValues_annuityShouldBeAsInGivenExample" />
+        <item itemvalue="JUnit.AnnuityCalculatorImplTest.shouldCalculateWithValidParameters" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a595604a-62cf-43d8-9359-dcfd21d0f97e" name="Default Changelist" comment="" />
+      <created>1550853887450</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550853887450</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RepaymentGeneratorImplTest_givenBasicValues_annuityShouldBeAsInGivenExample - 2019.02.25 at 12h 57m 07s.xml">
+      <configuration name="RepaymentGeneratorImplTest.givenBasicValues_annuityShouldBeAsInGivenExample" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepaymentGeneratorImplTest_givenBasicValues_annuityShouldBeAsInGivenExample - 2019.02.25 at 12h 57m 46s.xml">
+      <configuration name="RepaymentGeneratorImplTest.givenBasicValues_annuityShouldBeAsInGivenExample" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepaymentGeneratorImplTest_givenBasicValues_annuityShouldBeAsInGivenExample - 2019.02.25 at 13h 16m 18s.xml">
+      <configuration name="RepaymentGeneratorImplTest.givenBasicValues_annuityShouldBeAsInGivenExample" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepaymentGeneratorImplTest_givenBasicValues_annuityShouldBeAsInGivenExample - 2019.02.25 at 13h 16m 32s.xml">
+      <configuration name="RepaymentGeneratorImplTest.givenBasicValues_annuityShouldBeAsInGivenExample" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepaymentGeneratorImplTest_givenBasicValues_annuityShouldBeAsInGivenExample - 2019.02.25 at 13h 17m 14s.xml">
+      <configuration name="RepaymentGeneratorImplTest.givenBasicValues_annuityShouldBeAsInGivenExample" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepaymentGeneratorImplTest_givenBasicValues_whenDurationOfLoanRepaymentIs10_ThenListOfParticularPaymentsShouldBeEqual - 2019.02.25 at 13h 21m 27s.xml">
+      <configuration name="RepaymentGeneratorImplTest.givenBasicValues_whenDurationOfLoanRepaymentIs10_ThenListOfParticularPaymentsShouldBeEqual" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepaymentGeneratorImplTest - 2019.02.25 at 13h 28m 55s.xml">
+      <configuration name="RepaymentGeneratorImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepaymentCalculatorImplTest - 2019.02.25 at 15h 31m 33s.xml">
+      <configuration name="RepaymentCalculatorImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepaymentCalculatorImplTest - 2019.02.25 at 15h 40m 31s.xml">
+      <configuration name="RepaymentCalculatorImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepaymentGeneratorImplTest - 2019.02.25 at 15h 40m 58s.xml">
+      <configuration name="RepaymentGeneratorImplTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/lendico/planner/service/RepaymentGeneratorImplTest.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lendico/planner/service/RepaymentGeneratorImpl.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lendico/planner/service/RepaymentGeneratorImpl.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/lendico/planner/service/RepaymentGeneratorImplTest.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lendico/planner/service/RepaymentGeneratorImpl.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>dateTime.plusMonths(currentRepaymentMonth).format(formatter)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>LocalDateTime.parse(&quot;2018-01-01T00:00:00Z&quot;, DateTimeFormatter.ofPattern(format))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>LocalDateTime.parse((&quot;2018-01-01T00:00:00Z&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>LocalDateTime.from(Instant.parse(&quot;2018-01-01T00:00:00Z&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ZoneId.systemDefault()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list.get(0).getDate()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list.get(0).getDate() == basicStartDate.toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list.get(0).getBorrowerPaymentAmount().doubleValue() == basicAnnuity.doubleValue()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list.get(0).getBorrowerPaymentAmount().compareTo(basicAnnuity) == 0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lendico/payment/web.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="1375" column="19" selection-start-line="1375" selection-start-column="19" selection-end-line="1375" selection-end-column="19" />
+          <folding>
+            <element signature="e#56769#56770#0" expanded="true" />
+            <element signature="e#56823#56824#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/time/LocalDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="138" column="19" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/time/ZoneId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="270" column="25" selection-start-line="270" selection-start-column="25" selection-end-line="270" selection-end-column="25" />
+          <folding>
+            <element signature="e#11024#11025#0" expanded="true" />
+            <element signature="e#11079#11080#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/time/format/DateTimeFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="992" column="42" selection-start-line="992" selection-start-column="42" selection-end-line="992" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lendico/planner/service/AnnuityCalculator.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="124" column="19" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lendico/planner/service/AnnuityCalculatorImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lendico/planner/service/AnnuityCalculatorImplTest.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/time/LocalDateTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="134" column="19" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lendico/planner/model/FullRepayment.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/math/BigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="226" column="13" selection-start-line="226" selection-start-column="13" selection-end-line="226" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.5.RELEASE/spring-test-5.0.5.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunAfterTestExecutionCallbacks.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lendico/planner/service/RepaymentGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="117" selection-start-line="11" selection-start-column="117" selection-end-line="11" selection-end-column="117" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lendico/planner/app/RepaymentGeneratorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lendico/planner/service/RepaymentGeneratorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lendico/planner/service/RepaymentCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lendico/planner/service/RepaymentCalculatorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lendico/planner/app/RepaymentGeneratorRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lendico/planner/model/MonthlyRepayment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lendico/planner/LendicoLoanRepaymentApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LendicoCodeChallenge.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lendico/planner/service/RepaymentCalculatorImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lendico/planner/service/RepaymentGeneratorImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>LendicoCodeChallenge</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
